@@ -1,0 +1,37 @@
+WYŚCIGI SAMOCHODOWE
+
+Gra polega na wyścigach samochodowych.
+Jest to gra przeznaczona dla od jednego do czterech graczy.
+
+STEROWANIE:
+Steruje się za pomocą czterech przycisków.
+Gracze pierwszy, drugi, trzeci i czwarty mają odpowiednio 
+strzałki lub zestaw wsad, tgfh czy ikjl.
+Sterowanie jest względem gracza, nie samochodu.
+Po wciśnięciu przeciwstawnych przycisków
+(góra - dół, prawo - lewo) samochód zwalnia.
+Po zjechaniu z tasy samochód znacząco zwalnia.
+
+USTAWIENIA:
+W menu jest możliwość dostosowania wyścigu.
+Można wybrać mapę, liczbę graczy i liczbę okrążeń.
+Dodadkowo, można nadać nazwy graczom
+i wybrać kolory samochodów.
+
+CEL GRY:
+Celem gry jest jak najszybsze wykonanie
+określonej liczby okrążeń.
+Okrążenie jest zaliczone po minięciu określonej
+liczby checkpointów.
+Pierwszy checkpoint w sktronę którego należy jechać
+jest w kolorze niebieskim.
+Checkpoint minięty kiedy nie
+jest się na trasie może być nie zaliczony,
+decyduje o tym bezstronny sędzia -- czyli ja.
+
+
+Tak więc
+3...
+2...
+1...
+GO!!!
