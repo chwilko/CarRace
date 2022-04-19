@@ -530,22 +530,22 @@ static void set_map(char *map_file,
 
     }
     //* NIE USUWAĆ, PRZYDAJE SIĘ DO DEBUGOWANIA może kiedyś okpakuje w osobną funkcję
-    for(int i = 0; i < BASIC_HEIGHT / SCALAR; i++) {
-        for(int j = 0; j < BASIC_WIDTH / SCALAR; j++) {
-            if(my_modules -> road -> checkpoints[j][i] > 0) {
-                printf("%d", my_modules -> road -> checkpoints[j][i]);
-            } else {
-                if(my_modules -> road->map[j][i] == fric[1]) {
-                    printf("*");
-                } else if(my_modules -> road->map[j][i] == fric[0]) {
-                    printf(" ");
-                } else {
-                    printf("%2.0lf", my_modules -> road->map[j][i]);
-                }
-            }
-        }
-        printf("\n");
-    }
+    // for(int i = 0; i < BASIC_HEIGHT / SCALAR; i++) {
+    //     for(int j = 0; j < BASIC_WIDTH / SCALAR; j++) {
+    //         if(my_modules -> road -> checkpoints[j][i] > 0) {
+    //             printf("%d", my_modules -> road -> checkpoints[j][i]);
+    //         } else {
+    //             if(my_modules -> road->map[j][i] == fric[1]) {
+    //                 printf("*");
+    //             } else if(my_modules -> road->map[j][i] == fric[0]) {
+    //                 printf(" ");
+    //             } else {
+    //                 printf("%2.0lf", my_modules -> road->map[j][i]);
+    //             }
+    //         }
+    //     }
+    //     printf("\n");
+    // }
 }
 
 static void set_place(int n, int labels[], int values[],

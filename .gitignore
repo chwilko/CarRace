@@ -1,3 +1,4 @@
 *.o
 race
 TO_DO.txt
+.vscode
