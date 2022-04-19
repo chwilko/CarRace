@@ -8,8 +8,8 @@ string.h
 stdlib.h
 cairo.h
 
-## Zawartość 
-# car.c
+# Zawartość 
+## car.c
 
 Plik ze strukturą Car, pomocnicznymi strukturami RGB (kolor) oraz instruction (inforamcje co ma zrobić samochodzik)
 i obsługującymi ją funkcjami.
@@ -38,7 +38,7 @@ int tick(Car *car, int a[], double fric, int checkpoint, int n_checkpoints);
     n_checkpoints -> liczba checkpointów na tej mapie
 '''
 
-# game.c
+## game.c
 Plik z funkcjami odpowiedzialnymi za grę
 Najważniejsza funkcja:
 
@@ -47,13 +47,13 @@ void play_game(int argc, char *argv[]);
     Wszystko jest póżniej sczytywane z przygotowanych wcześniej plikow.
 '''
 
-# main.c
+## main.c
 Plik tworzący okienko menu i ustawiający parametry gry do plików
 
-# instruction.c
+## instruction.c
 Plik z okienkiem instrukcji.
 
-# setup
+## setup
 colors.txt
     Dostępne kolory samochodzików
 controls.txt
@@ -70,12 +70,12 @@ tmp_maps.m
     Plik pomagający tworzyć mapy.
 
 
-## WYŚCIGI SAMOCHODOWE
+# WYŚCIGI SAMOCHODOWE
 
 Gra polega na wyścigach samochodowych.
 Jest to gra przeznaczona dla od jednego do czterech graczy.
 
-# STEROWANIE:
+## STEROWANIE:
 Steruje się za pomocą czterech przycisków.
 Gracze pierwszy, drugi, trzeci i czwarty mają odpowiednio 
 strzałki lub zestaw wsad, tgfh czy ikjl.
@@ -84,13 +84,13 @@ Po wciśnięciu przeciwstawnych przycisków
 (góra - dół, prawo - lewo) samochód zwalnia.
 Po zjechaniu z tasy samochód znacząco zwalnia.
 
-# USTAWIENIA:
+## USTAWIENIA:
 W menu jest możliwość dostosowania wyścigu.
 Można wybrać mapę, liczbę graczy i liczbę okrążeń.
 Dodadkowo, można nadać nazwy graczom
 i wybrać kolory samochodów.
 
-# CEL GRY:
+## CEL GRY:
 Celem gry jest jak najszybsze wykonanie
 określonej liczby okrążeń.
 Okrążenie jest zaliczone po minięciu określonej
